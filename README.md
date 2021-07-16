@@ -10,7 +10,7 @@ This repository contains the code and the dataset accompanying the paper [*"EAGL
 </p>
 
 ### Dataset of Extreme Poses
-Visit these shared drive links to download the [*ExPose*](https://drive.google.com/drive/folders/1HQDMIbbwHWerr8AXfPf08K1cwR-G1z7Y?usp=sharing) and the *G-ExPose* datasets.
+Visit these shared drive links to download the [*ExPose*](https://drive.google.com/drive/folders/1HQDMIbbwHWerr8AXfPf08K1cwR-G1z7Y?usp=sharing) and the [*G-ExPose*] (https://drive.google.com/drive/folders/1sStYPEtPnggp0mI5VrCwzyg5qtk2c39u?usp=sharing) datasets.
 
 ### Dependencies
 This code requires the following:
