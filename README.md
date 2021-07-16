@@ -5,6 +5,6 @@ This repository contains the code and the dataset accompanying the paper *"EAGLE
 ", WACV 2021*.
 
 <p align="center">
-    <img src="https://github.com/MahdiNek/EAGLE-Eye/blob/main/Pipeline.gif" width="480">
+    <img src="https://github.com/MahdiNek/EAGLE-Eye/blob/main/Pipeline.gif">
     <br>
 </p>
