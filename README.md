@@ -11,3 +11,10 @@ This repository contains the code and the dataset accompanying the paper [*"EAGL
 
 ### Dataset of Extreme Poses
 Visit these shared drive links to download the [*ExPose*](https://drive.google.com/drive/folders/1HQDMIbbwHWerr8AXfPf08K1cwR-G1z7Y?usp=sharing) and the *G-ExPose* datasets.
+
+### Dependencies
+This code requires the following:
+* python 2.7.15+ or python 3.5+
+* PyTorch v1.0+
+
+
