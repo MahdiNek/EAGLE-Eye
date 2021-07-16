@@ -1,0 +1,51 @@
+Dataset:
+  Index_Field: 1
+  Name: AQA
+  Num_Classes: 1
+  Num_Frames: 103
+  Pretrained_Charades_Root: /home/mahdiar/Projects/pytorch-i3d/models/rgb_imagenet.pt
+  Sport_Field: Diving
+LOG_num: 10
+MODEL:
+  Ablated: N
+  BackBone: i3d_rgb
+  BackBone_FeatureLayer: 4
+  Classification_Type: sl
+  Coeff_Spatial_Attention: 5
+  Coeff_Temporal_Attention: 0.9
+  Expansion_Factor_ADA: 1.5
+  Expansion_Factor_JCA: 1.0833333333333333
+  JCA_Expansion_Balance: 10
+  Loss_Type: MSE
+  Name: AQA
+  Num_ADA_Layers: 2
+  Num_AQA_Layers: 3
+  Num_Branches_ADA: 3
+  Num_Branches_JCA: 3
+  Num_JCA_Layers: 2
+  Num_Timesteps: 12
+  Pose_Model: HRNet
+  Pose_Pretrained_Root: /home/mahdiar/Projects/pytorch-i3d/Pose/models/coco_pose_iter_440000.pth.tar
+  Pose_Spatial_Size: 64
+  Pretrain: Kinetics
+  Spatial_Attention_Method: Gaussian
+  Spatial_transform_size: 224
+  Temporal_Attention_Method: N
+Num_GPUS: 2
+SOLVER:
+  ADAM_Epsilon: 0.0001
+  ADAM_Weight_Decay: 1.0e-06
+  Learning_Rate: 0.005
+  Learning_Rate_Decay: 1
+  Name: adam
+  SGD_Momentum: 0.9
+  SGD_Nesterov: true
+  SGD_Weight_Decay: 0.0001
+TEST:
+  Batch_Size: 14
+  Num_Videos: 28
+TRAIN:
+  Batch_Size: 20
+  Num_Epochs: 1000
+  Num_Videos: 300
+  Num_Workers: 4
