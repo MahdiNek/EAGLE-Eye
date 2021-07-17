@@ -18,7 +18,9 @@ This code requires the following:
 * PyTorch v1.0+
 
 ### Instructions
-First, download the [*AQA-7*](http://rtis.oit.unlv.edu/datasets.html) dataset samples and put the raw videos under `AQA_dataset/SportName_raw`. Then run the `AQA_dataset/video2img.py` to extract the frames of the videos. By default, the appearance dynamics assessment stream of the network uses the I3D features of these frames.\  EAGLE-Eye further requires the pose features of a routine to assess it. We entangled the [*DiMP*](https://github.com/visionml/pytracking) visual object tracker with [*HRNet*](https://github.com/HRNet/HRNet-Human-Pose-Estimation) pose estimator to get the pose sequence of the videos. The resulted pose heatmaps should be located under `AQA_dataset/SportName_heatmaps`. Finally, run the `AQA_head/experiments/train_model_AQA.py` to train and test the network on the *AQA-7* dataset. You may adjust the network parameters on `AQA_head/configs/config_py.py`. 
+First, download the [*AQA-7*](http://rtis.oit.unlv.edu/datasets.html) dataset samples and put the raw videos under `AQA_dataset/SportName_raw`. Then run the `AQA_dataset/video2img.py` to extract the frames of the videos. By default, the appearance dynamics assessment stream of the network uses the I3D features of these frames.
+
+EAGLE-Eye further requires the pose features of a routine to assess it. We entangled the [*DiMP*](https://github.com/visionml/pytracking) visual object tracker with [*HRNet*](https://github.com/HRNet/HRNet-Human-Pose-Estimation) pose estimator to get the pose sequence of the videos. The resulted pose heatmaps should be located under `AQA_dataset/SportName_heatmaps`. Finally, run the `AQA_head/experiments/train_model_AQA.py` to train and test the network on the *AQA-7* dataset. You may adjust the network parameters on `AQA_head/configs/config_py.py`. 
 
 ### Citation
 
